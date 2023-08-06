@@ -1,8 +1,6 @@
 package chess
 
-import org.specs2.mutable.Specification
-
-class StatsTest extends Specification:
+class StatsTest extends munit.FunSuite:
 
   def realMean(elts: Seq[Float]): Float = elts.sum / elts.size
 
